@@ -1,11 +1,1 @@
-{
-  "Envelope": null,
-  "Transport": {
-    "Type": "S3",
-    "Bucket": "mydatasets2018",
-    "ObjectKey": "census-data-08-2018",
-    "AccessKeyID": "AKIAIOSFODNN7EXAMPLE",
-    "SecretAccessKey": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
-  },
-  "Encoding": "json"
-}
+{"Encoding":"json","Transport":{"AccessKeyID":"AKIAIOSFODNN7EXAMPLE","Bucket":"mydatasets2018","ObjectKey":"census-data-08-2018","SecretAccessKey":"wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY","Type":"S3"}}
