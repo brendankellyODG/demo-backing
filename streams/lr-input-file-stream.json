@@ -1,1 +1,1 @@
-{"Encoding":"json","Envelope":"delimited","Loop":true,"Transport":{"Path":"/data/close_prices.jsons","Type":"file"},"Version":"1.2"}
+{"Encoding":"json","Envelope":"delimited","Loop":true,"Transport":{"Path":"/fastscore/artifacts/close_prices.jsons","Type":"file"},"Version":"1.2"}
