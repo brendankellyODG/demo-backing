@@ -34,4 +34,6 @@ for tensor in tensors:
 x_test = np.array(tensors)
 #out = tf_model.predict(x_test)[:,0].tolist()
 out = pd.Series(tf_model.predict(x_test)[:,0])
+#for el in out:
+#    slot1.write(el)
 slot1.write(out)
