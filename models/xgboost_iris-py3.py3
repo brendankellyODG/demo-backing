@@ -19,7 +19,9 @@ for df in slot0:
 	preds = model.predict_proba(data = df)
 	preds = pd.DataFrame(preds, columns = ['A', 'B', 'C'])
 	for j in range(len(preds)):
-		slot1.write(preds.iloc[j,:].to_dict())
+		print(preds.iloc[j,:].to_dict())
+                slot1.write(preds.iloc[j,:].to_dict())
+                
 
 
 
