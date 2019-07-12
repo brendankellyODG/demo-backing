@@ -46,3 +46,4 @@ def action(datum):
         BATCH = []
         sleep(FLUSH_DELTA)
     yield {"name": "score", "predicted": predicted,"actual": actual, "MSE": MSE}
+
