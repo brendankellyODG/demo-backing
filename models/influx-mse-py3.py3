@@ -33,7 +33,7 @@ def action(datum):
     MSE = 0
     name = datum['name']
     actual = datum['actual']
-    predicted = datum['predicted']
+    predicted = datum['value']
     timestamp = datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ')
 
     MSE = (1/N)*(N*MSE+(predicted - actual) ** 2)
