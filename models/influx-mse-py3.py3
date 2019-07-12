@@ -1,4 +1,4 @@
-# ___fastscore.input: lr-mont
+# fastscore.input: tagged_mse
 # fastscore.module-attached: influxdb
 
 from influxdb import InfluxDBClient
