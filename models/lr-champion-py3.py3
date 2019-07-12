@@ -28,3 +28,4 @@ def action(x):
         y = lr.predict(X)
         yield {"name":"champion", "value": y[0,0], "actual": actual}
 
+
