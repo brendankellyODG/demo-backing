@@ -1,1 +1,11 @@
-{"Encoding":"JSON","Transport":{"AccessKeyID":"","Bucket":"iris-data-bucket","ObjectKey":"xgboost_iris_inputs.jsons","Region":"us-east-2","SecretAccessKey":"","Type":"S3"}}
+{
+ "Encoding": "JSON",
+  "Transport": {
+    "Type": "S3",
+    "Bucket": "iris-data-bucket",
+    "ObjectKey": "xgboost_iris_inputs.jsons",
+    "AccessKeyID": "",
+    "SecretAccessKey": "",
+    "Region": "us-east-2"
+  }
+}
